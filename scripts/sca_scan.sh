@@ -7,7 +7,8 @@ DC_PROJECT="dependency-check scan: $(pwd)"
 DATA_DIRECTORY="$DC_DIRECTORY/.owasp-dependency-check/data"
 CACHE_DIRECTORY="$DC_DIRECTORY/.owasp-dependency-check/data/cache"
 WORKING_DIRECTORY="$(pwd)"
-NVD_API_KEY="64b97649-1d4e-421b-9589-fad15a2c6cc5"
+NVD_API_KEY="64b97649-1d4e-421b-9589-fad15a2c6cc5" 
+# Note - NVD api key can be gotten free of charge, from the official website.
 
 if [ ! -d "$DATA_DIRECTORY" ]; then
     echo "Initially creating persistent directory: $DATA_DIRECTORY"
