@@ -1,0 +1,8 @@
+{
+  "project": {
+    "projectKey": "sonar-solutions_easy-nodejs-app-with-code-coverage",
+    "path": ".",
+    "region": "eu",
+    "organization": "sonar-solutions"
+  }
+}
